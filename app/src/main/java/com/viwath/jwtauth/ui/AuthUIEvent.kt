@@ -1,5 +1,7 @@
 package com.viwath.jwtauth.ui
 
+
+
 sealed class AuthUIEvent {
     data class SignUpUsernameChanged(val value: String): AuthUIEvent()
     data class SignUpPasswordChanged(val value: String): AuthUIEvent()
